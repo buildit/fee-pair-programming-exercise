@@ -13,9 +13,9 @@ Before arriving, we ask that you bootstrap an application using your favorite fr
 Candidates will be leading a code pair interview with BuildIt devs on-site to complete the following.
 
 1. Display an index page with all of the questions
-1. Display a page with a single question and corresponding answers
+1. Clicking a question routes to a page with a corresponding answer form
 1. Submitting a correct answer displays a success message
-1. Submitting an incorrect answer displays an error
+1. Submitting an incorrect answer displays an error message
 1. Submit your finalized code to version control
 
 You're allowed to use search engines and tools such as Stackoverflow during the coding exercise. The goal here is to demonstrate how you work on a project.
@@ -26,7 +26,6 @@ The coding test is up to 2 hours and you might not finish. If you don't that's o
 
 ## What criteria will I be evaluated on?
 Candidates will be evaluated on the following criteria and how they approach it. While you're coding we encourage you to walk us through your thought process as it will play a large part in your scoring.
-
 
 - Initial project setup
 - Usage of JavaScript in relation to a production environment
@@ -43,7 +42,6 @@ For the interview we ask that you please bring your laptop with the version cont
 
 ## The API
 The following API end points are available to complete the on-site coding exercise. You are free to review these API end points beforehand.
-
 
 - All questions: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/questions
 - Question by ID: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/questions/{id}

@@ -12,8 +12,8 @@ Before arriving, we ask that you bootstrap an application using your favorite fr
 # The Interview
 Candidates will be leading a code pair interview with BuildIt devs on-site to complete the following.
 
-1. Display one question at a time from an API, with corresponding answers
-1. User can navigate questions
+1. Display an index page with all of the questions
+1. Display a page with a single question and corresponding answers
 1. Submitting a correct answer displays a success message
 1. Submitting an incorrect answer displays an error
 1. Submit your finalized code to version control
@@ -21,6 +21,8 @@ Candidates will be leading a code pair interview with BuildIt devs on-site to co
 You're allowed to use search engines and tools such as Stackoverflow during the coding exercise. The goal here is to demonstrate how you work on a project.
 
 The coding test is up to 2 hours and you might not finish. If you don't that's okay, you will be evaluated based upon the grading criteria instead of project completion.
+
+**DISCLAIMER**: If you take longer than 40 minutes on a single task, we may end the test early. As you may not have enough time to finish.
 
 ## What criteria will I be evaluated on?
 Candidates will be evaluated on the following criteria and how they approach it. While you're coding we encourage you to walk us through your thought process as it will play a large part in your scoring.

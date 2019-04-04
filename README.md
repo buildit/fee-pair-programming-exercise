@@ -1,22 +1,32 @@
 Below you'll find the details necessary to complete the BuildIt front-end on-site coding challenge. If you have any questions while reading please email your point of contact for clarification.
 
 # Interview Prep
-Before arriving, we ask that you bootstrap an application using your favorite framework (React, Angular, Vue, etc), setup CSS (Sass, SCSS, Bootstrap, etc), configure testing (Jest, Jasmine, Mocha, etc), and any additional tools that demonstrate your knowledge of architecting a front-end project. Please push this setup to github/bitbucket/gitlab, etc and email us the repo.
 
-1. Setup a front-end coding environment with your favorite framework(s) and tools*
-1. Place your coding environment in version control
-1. Email BuildIt with a link to your publicly version controlled files
+Before arriving, we ask that you bootstrap an application using your favorite framework (React, Angular, Vue, etc) and configure testing (Jest, Jasmine, Mocha, etc). Please push this setup to github/bitbucket/gitlab, etc and email us the repo.
 
-*Note: Please don’t do any application coding. We want to see how you setup a project, application coding will be done during the interview.
+1. Setup a front-end coding environment capable of handling tests and API calls (Create React App, Angular CLI, ect)
+    1. Place your coding environment in version control
+    1. Email BuildIt with a link to your public version controlled files
+1. Get an API key from the [OMDb API](http://www.omdbapi.com/apikey.aspx)
+    1. Bring this to your interview for API calls
+
+*Note: Please don’t do any application coding. We want to see how you setup a project, coding will be done during the interview.
 
 # The Interview
-Candidates will be leading a code pair interview with BuildIt devs on-site to complete the following.
 
-1. Display an index page with all of the questions
-1. Clicking a question routes to a page with a corresponding answer form
-1. Submitting a correct answer displays a success message
-1. Submitting an incorrect answer displays an error message
-1. Submit your finalized code to version control
+You'll be coding with BuildIt's front-end developers to complete the following criteria.
+
+1. Print a list of movie results from an OMDb search on a single page
+1. Make a list of 3 different movie search queries on the same page
+1. Clicking a search repopulates the movies with the query's results
+
+## Test Criteria
+
+We'd like to see the following tests to verify code integrity.
+
+* An HTTP call is made
+* Clicking a list item triggers intended functionality
+* Assertion that movie data is being printed from a returned call
 
 You're allowed to use search engines and tools such as Stackoverflow during the coding exercise. The goal here is to demonstrate how you work on a project.
 
@@ -30,20 +40,10 @@ Candidates will be evaluated on the following criteria and how they approach it.
 - Initial project setup
 - Usage of JavaScript in relation to a production environment
 - API Consumption
-- Knowledge of CSS
-- Mastery of HTML
 - Finalized code architecture
 - Ability to work with your selected framework and tools
 - Communication with code pair members
-- Did you write good test(s)
+- Quality of written test(s)
 
 ## What to bring?
 For the interview we ask that you please bring your laptop with the version controlled coding environment you've prepared. Candidates will be asked to complete the coding test with the setup they've brought.
-
-## The API
-The following API end points are available to complete the on-site coding exercise. You are free to review these API end points beforehand.
-
-- All questions: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/questions
-- Question by ID: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/questions/{id}
-- All answers: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/answers
-- Answers by ID: https://d10pu24hbl.execute-api.us-east-2.amazonaws.com/v1/answers/{id}

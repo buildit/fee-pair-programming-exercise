@@ -1,5 +1,16 @@
 This overview explains BuildIt's front-end on-site coding challenge. If you have any questions while reading please email your point of contact for clarification.
 
+# Quick Overview
+
+If you don't want to read the text below in detail (which we recommend) here is everything you need to know in bullet point form.
+
+* You *must* come to the interview with the following 
+  * Bring a scaffold (Create React App, Angular CLI) checked into public version control (Github, BitBucket)
+  * Bring an API key generated from [OMDb API](http://www.omdbapi.com/apikey.aspx)
+  * Bring your laptop with the scaffold ready for coding
+* Interview is a 2 hour test writing a simple single page app
+* You are required to write some tests
+
 # Interview Prep
 
 Before arriving, we ask that you bootstrap an application using your favorite framework (React, Angular, Vue, etc) and configure testing (Jest, Jasmine, Mocha, etc). Please push this setup to public version control (Github, Bitbucket, ect) and email your contact a link to the repo.

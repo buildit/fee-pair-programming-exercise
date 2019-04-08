@@ -37,7 +37,7 @@ The coding test is up to 2 hours and you might not finish. If you don't that's o
 
 ## Test Criteria
 
-We'd like to see the following tests to verify code integrity.
+Please write the following tests to demonstrate code integrity with the least amount of code. Mocks, substitution, and other techniques are completely valid.
 
 * An HTTP call is made
 * Clicking a list item triggers intended functionality

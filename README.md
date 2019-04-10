@@ -26,8 +26,8 @@ Before arriving, we ask that you bootstrap an application using your favorite fr
 You'll be coding with BuildIt's front-end developers to complete the following criteria.
 
 1. Print an OMDb search query as a list of movies on a single page (example https://www.omdbapi.com/?s=star_wars&apikey=YOUR_KEY)
-1. Make a list of 3 different movie search queries on the same page
-1. Clicking a search query replaces printed movies with the query's results
+1. Make 3 different movie search query buttons
+1. Clicking a button replaces printed movies with the query's results
 
 *Note: Please don’t do any application coding yet. We want to see how you setup a project, coding will be done during the interview.
 
@@ -39,9 +39,9 @@ The coding test is up to 2 hours and you might not finish. If you don't that's o
 
 Please write the following tests to demonstrate code integrity with the least amount of code. Mocks, substitution, and other techniques are completely valid.
 
-* An HTTP call is made
-* Clicking a list item triggers intended functionality
-* Verify that movie data is being printed from a returned call
+* Certify an HTTP call is made
+* Clicking a button triggers intended functionality
+* Verify that movie data is printed in the DOM from a returned call
 
 ## What resources are okay?
 

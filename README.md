@@ -62,3 +62,25 @@ Candidates will be evaluated on the following criteria and how they approach it.
 ## What to bring?
 
 For the interview we ask that you please bring your laptop with the version controlled coding environment you've prepared. Candidates will be asked to complete the coding test with the setup they've brought.
+
+# Takehome Version
+
+If you're planning to complete this test at your own pace please do the following. Submissions will be graded on and expected to have this additional criteria.
+
+* Clicking a movie routes to a single page about that movie
+* Style the application visually
+* Test coverage across the app
+
+## Submitting Your Takehome
+
+When submitting your takehome please ensure the following is complete.
+
+* Provide a README.md file that documents:
+  * How to run / build / test your creation
+  * Your thought process when creating the solution
+  * Any tradeoffs you made
+  * anything you might implement with more time (features, fixes, technical debt corrections etc)
+* If your solution uses a package manager, please ensure that there are no globally installed dependencies required to build / run your app. This avoids environment issues when trying to build your solution
+  * If you have to have global packages please explain why
+* Host your code on a public web server of your choice
+* Submit your code into a public git repository of your choice (github / bitbucket etc)

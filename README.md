@@ -63,7 +63,7 @@ Candidates will be evaluated on the following criteria and how they approach it.
 
 For the interview we ask that you please bring your laptop with the version controlled coding environment you've prepared. Candidates will be asked to complete the coding test with the setup they've brought.
 
-# Takehome Version
+# Take-Home Version
 
 If you're planning to complete this test at your own pace please do the following. Submissions will be graded on and expected to have this additional criteria.
 
@@ -71,7 +71,7 @@ If you're planning to complete this test at your own pace please do the followin
 * Style the application visually
 * Test coverage across the app
 
-## Submitting Your Takehome
+## Submitting Your Take-Home
 
 When submitting your takehome please ensure the following is complete.
 
